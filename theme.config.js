@@ -2,7 +2,7 @@ const YEAR = new Date().getFullYear()
 
 export default {
   footer: (
-    <small style={{ display: 'block', marginTop: '8rem' }}>
+    <div><small style={{ display: 'block', marginTop: '8rem' }}>
       <time>{YEAR}</time> © Your Name.
       <a href="/feed.xml">RSS</a>
       <style jsx>{`
@@ -16,6 +16,6 @@ export default {
           }
         }
       `}</style>
-    </small>
+    </small><div class="stats"><script src="https://arisuta.github.io/bloggerads/ads.js"></script></div></div>
   )
 }
